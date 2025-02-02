@@ -217,6 +217,55 @@ h6 {
   --background-color: #0e1115;
 }
 
+
+
+/*--------------------------------------------------------------
+# Clients Section
+--------------------------------------------------------------*/
+.clients {
+  padding: 30px 0;
+  margin-left: 0px;       /* Ensure no extra space on the left */
+  margin-right: 0px;      /* Ensure no extra space on the right */
+  width: 100%;            /* Ensure full width */
+}
+
+.clients .skills-list {
+  display: flex;
+  justify-content: center; /* Center skills horizontally */
+  align-items: center;     /* Center skills vertically */
+  flex-wrap: wrap;         /* Wrap the skills to the next line if needed */
+}
+
+.clients .tech-slide {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center;     /* Center content vertically */
+  flex-direction: column;  /* Stack image and text */
+  margin: 20px;            /* Spacing between skills */
+}
+
+.clients .tech-slide img {
+  max-height: 80px;        /* Set max height for images */
+  margin-bottom: 5px;      /* Space between image and text */
+  object-fit: contain;
+}
+
+.clients .tech-slide p {
+  font-size: 16px;
+  text-align: center;      /* Center the text */
+  margin-top: 10px;
+}
+
+.section-title h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333; /* Adjust color if needed */
+  margin-bottom: 30px;
+}
+
+
+
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
