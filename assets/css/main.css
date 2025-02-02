@@ -969,7 +969,7 @@ section,
   justify-content: flex-start; /* Adjust horizontal positioning */
   align-items: flex-start; /* Adjust vertical positioning */
   flex-direction: column; /* Stack image and text */
-  margin-left: 15px; /* Adjust spacing manually */
+ /* margin-left: 15px; /* Adjust spacing manually */
   margin-top: 0px; /* Adjust vertical positioning */
   position: relative; /* Enables manual positioning */
 }
