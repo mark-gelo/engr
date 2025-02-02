@@ -1874,8 +1874,8 @@ section,
 }
 
 @media (max-width: 768px) {
-  .contact .info-wrap {
-    text-align: center;
+  .info-wrap {
+    text-align: center; /* Ensures the content inside is centered */
   }
 }
 
