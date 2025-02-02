@@ -966,12 +966,12 @@ section,
   justify-content: center; /* Center content horizontally */
   align-items: center;     /* Center content vertically */
   flex-direction: column;  /* Stack image and text */
-  margin: 20px;            /* Spacing between skills */
+  margin: 50px;            /* Spacing between skills */
 }
 
 .clients .tech-slide img {
   max-height: 80px;        /* Set max height for images */
-  margin-bottom: 5px;      /* Space between image and text */
+  margin-bottom: 8px;      /* Space between image and text */
   object-fit: contain;
 }
 
