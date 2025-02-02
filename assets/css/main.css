@@ -972,7 +972,6 @@ section,
 .clients .tech-slide img {
   max-height: 80px;        /* Set max height for images */
   margin-bottom: 8px;      /* Space between image and text */
-  object-fit: contain;
 }
 
 .clients .tech-slide p {
