@@ -966,7 +966,7 @@ section,
   justify-content: center; /* Center content horizontally */
   align-items: center;     /* Center content vertically */
   flex-direction: column;  /* Stack image and text */
-  margin: 50px;            /* Spacing between skills */
+  margin: 150px;            /* Spacing between skills */
 }
 
 .clients .tech-slide img {
