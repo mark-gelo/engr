@@ -944,32 +944,6 @@ section,
   }
 }
 
-.clients .skills-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 30px; /* Adds space between each tech-slide */
-}
-
-.clients .tech-slide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 0;  /* Remove large margin to use gap instead */
-}
-
-.clients .tech-slide img {
-  max-height: 80px;
-  margin-bottom: 8px;
-}
-
-.clients .tech-slide p {
-  font-size: 16px;
-  text-align: center;
-  margin-top: 10px;
-}
 
 
 
