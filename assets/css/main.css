@@ -1873,9 +1873,9 @@ section,
   justify-content: flex-end; /* Ensures content is at the bottom */
 }
 
-@media (max-width: 575px) {
+@media (max-width: 768px) {
   .contact .info-wrap {
-    padding: 20px;
+    text-align: center;
   }
 }
 
