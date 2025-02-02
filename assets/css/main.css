@@ -954,40 +954,31 @@ section,
   width: 100%;            /* Ensure full width */
 }
 
-.clients .swiper {
-  padding: 10px 0;
+.clients .skills-list {
   display: flex;
-  justify-content: center; /* Center swiper slides horizontally */
-  align-items: center;     /* Center swiper slides vertically */
-  width: 100%;
-  max-width: 0px;
-  margin-left: 120px;
+  justify-content: center; /* Center skills horizontally */
+  align-items: center;     /* Center skills vertically */
+  flex-wrap: wrap;         /* Wrap the skills to the next line if needed */
 }
 
-.clients .swiper-slide {
+.clients .tech-slide {
   display: flex;
-  justify-content: flex-start; /* Adjust horizontal positioning */
-  align-items: flex-start; /* Adjust vertical positioning */
-  flex-direction: column; /* Stack image and text */
-  margin-left: 15px; /* Adjust spacing manually */
-  margin-top: 0px; /* Adjust vertical positioning */
-  position: relative; /* Enables manual positioning */
+  justify-content: center; /* Center content horizontally */
+  align-items: center;     /* Center content vertically */
+  flex-direction: column;  /* Stack image and text */
+  margin: 20px;            /* Spacing between skills */
 }
 
-.clients .swiper-slide img {
-  max-height: 150px;
-  margin-bottom: 5px; /* Space between image and text */
+.clients .tech-slide img {
+  max-height: 80px;        /* Set max height for images */
+  margin-bottom: 5px;      /* Space between image and text */
+  object-fit: contain;
 }
 
-.clients .swiper-slide p {
+.clients .tech-slide p {
   font-size: 16px;
-  text-align: absolute;
-  margin-right: 10px;
-}
-
-
-.clients .swiper-slide img:hover {
-  transform: scale(1.1);
+  text-align: center;      /* Center the text */
+  margin-top: 10px;
 }
 
 .section-title h2 {
@@ -996,6 +987,7 @@ section,
   color: #333; /* Adjust color if needed */
   margin-bottom: 30px;
 }
+
 
 
 
