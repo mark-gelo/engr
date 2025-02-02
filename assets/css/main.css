@@ -961,6 +961,7 @@ section,
   align-items: center;     /* Center swiper slides vertically */
   width: 100%;
   max-width: 1200px;       /* Optional: restrict the swiper's max width */
+  /*
   margin-left: 120px;
 }
 
