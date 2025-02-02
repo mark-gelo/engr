@@ -944,48 +944,33 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Clients Section
---------------------------------------------------------------*/
-.clients {
-  padding: 30px 0;
-  margin-left: 0px;       /* Ensure no extra space on the left */
-  margin-right: 0px;      /* Ensure no extra space on the right */
-  width: 100%;            /* Ensure full width */
-}
-
 .clients .skills-list {
   display: flex;
-  justify-content: center; /* Center skills horizontally */
-  align-items: center;     /* Center skills vertically */
-  flex-wrap: wrap;         /* Wrap the skills to the next line if needed */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px; /* Adds space between each tech-slide */
 }
 
 .clients .tech-slide {
   display: flex;
-  justify-content: center; /* Center content horizontally */
-  align-items: center;     /* Center content vertically */
-  flex-direction: column;  /* Stack image and text */
-  margin: 150px;            /* Spacing between skills */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;  /* Remove large margin to use gap instead */
 }
 
 .clients .tech-slide img {
-  max-height: 80px;        /* Set max height for images */
-  margin-bottom: 8px;      /* Space between image and text */
+  max-height: 80px;
+  margin-bottom: 8px;
 }
 
 .clients .tech-slide p {
   font-size: 16px;
-  text-align: center;      /* Center the text */
+  text-align: center;
   margin-top: 10px;
 }
 
-.section-title h2 {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #333; /* Adjust color if needed */
-  margin-bottom: 30px;
-}
 
 
 
