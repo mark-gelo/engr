@@ -23,6 +23,10 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.flaticon.com/icons/svg/your-icon-set-id/your-icon-id.svg" rel="stylesheet">
+
+
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
@@ -114,101 +118,50 @@
 </section><!-- /About Section -->
 
 
+ <!-- Clients Section -->
+ <section id="clients" class="clients section light-background">
 
-
-<!-- Clients Section -->
-<section id="clients" class="clients section light-background">
-
-  <div class="container" data-aos="zoom-in">
-
+  <div class="container">
     <!-- Section Title -->
     <div class="section-title text-center">
       <h2>Skills</h2>
     </div>
 
-    <div class="swiper init-swiper">
-      <script type="application/json" class="swiper-config">
-        {
-          "loop": true,
-          "speed": 600,
-          "autoplay": {
-            "delay": 5000
-          },
-          "slidesPerView": "auto",
-          "pagination": {
-            "el": ".swiper-pagination",
-            "type": "bullets",
-            "clickable": true
-          },
-          "breakpoints": {
-            "320": {
-              "slidesPerView": 2,
-              "spaceBetween": 40
-            },
-            "480": {
-              "slidesPerView": 3,
-              "spaceBetween": 60
-            },
-            "640": {
-              "slidesPerView": 4,
-              "spaceBetween": 80
-            },
-            "992": {
-              "slidesPerView": 5,
-              "spaceBetween": 120
-            },
-            "1200": {
-              "slidesPerView": 6,
-              "spaceBetween": 120
-            }
-          }
-        }
-      </script>
-      <div class="swiper-wrapper align-items-center">
-        <!-- IoT Slide -->
-        <div class="swiper-slide">
-          <div class="tech-slide d-flex justify-content-center align-items-center">
-            <div class="text-center">
-              <img src="assets/img/tech/iot-icon.png" class="img-fluid" alt="IoT" style="max-height: 80px;">
-              <p>IoT</p>
-            </div>
-          </div>
+    <!-- Skills List (No Animation, just static display) -->
+    <div class="skills-list d-flex justify-content-center">
+      <!-- IoT Skill -->
+      <div class="tech-slide">
+        <div class="text-center">
+          <img src="assets/iot-icon.png" class="img-fluid" alt="IoT" style="max-height: 80px;">
+          <p>IoT</p>
         </div>
-        <!-- Machine Learning Slide -->
-        <div class="swiper-slide">
-          <div class="tech-slide d-flex justify-content-center align-items-center">
-            <div class="text-center">
-              <img src="assets/img/tech/ml-icon.png" class="img-fluid" alt="Machine Learning" style="max-height: 80px;">
-              <p>Machine Learning</p>
-            </div>
-          </div>
+      </div>
+      <!-- Machine Learning Skill -->
+      <div class="tech-slide">
+        <div class="text-center">
+          <img src="assets/ml-icon.png" class="img-fluid" alt="Machine Learning" style="max-height: 80px;">
+          <p>Machine Learning</p>
         </div>
-        <!-- AI Slide -->
-        <div class="swiper-slide">
-          <div class="tech-slide d-flex justify-content-center align-items-center">
-            <div class="text-center">
-              <img src="assets/img/tech/ai-icon.png" class="img-fluid" alt="AI" style="max-height: 80px;">
-              <p>Artificial Intelligence</p>
-            </div>
-          </div>
+      </div>
+      <!-- AI Skill -->
+      <div class="tech-slide">
+        <div class="text-center">
+          <img src="assets/ai-icon.png" class="img-fluid" alt="AI" style="max-height: 80px;">
+          <p>Artificial Intelligence</p>
         </div>
-        <!-- Web Development Slide -->
-        <div class="swiper-slide">
-          <div class="tech-slide d-flex justify-content-center align-items-center">
-            <div class="text-center">
-              <img src="assets/img/tech/webdev-icon.png" class="img-fluid" alt="Web Development" style="max-height: 80px;">
-              <p>Web Development</p>
-            </div>
-          </div>
+      </div>
+      <!-- Web Development Skill -->
+      <div class="tech-slide">
+        <div class="text-center">
+          <img src="assets/webdev-icon.png" class="img-fluid" alt="Web Development" style="max-height: 80px;">
+          <p>Web Development</p>
         </div>
-        <!-- OpenCV Slide -->
-        <div class="swiper-slide">
-          <div class="tech-slide d-flex justify-content-center align-items-center">
-            <div class="text-center">
-              <img src="assets/img/tech/opencv-icon.png" class="img-fluid" alt="OpenCV" style="max-height: 80px;">
-              <p>OpenCV</p>
-            </div>
-          </div>
+      </div>
+      <!-- OpenCV Skill -->
+      <div class="tech-slide">
+        <div class="text-center">
+          <img src="assets/opencv-icon.png" class="img-fluid" alt="OpenCV" style="max-height: 80px;">
+          <p>OpenCV</p>
         </div>
       </div>
     </div>
@@ -216,10 +169,6 @@
   </div>
 
 </section><!-- /Clients Section -->
-
-
-
-
 
 
 
@@ -395,26 +344,11 @@
               </div>
             </div>  <!-- End Portfolio Item -->
 
-
-            
-
-            <!--      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Branding 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div>    -->     <!-- End Portfolio Item -->
-
-          </div><!-- End Portfolio Container -->
-
-        </div>
-
-      </div>
-
     </section><!-- /Portfolio Section -->
+
+
+
+
 
 
 
