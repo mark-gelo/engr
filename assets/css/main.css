@@ -1852,35 +1852,25 @@ section,
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
-.contact .info-wrap {
-  background-color: var(--surface-color);
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  border-top: 3px solid var(--accent-color);
-  border-bottom: 3px solid var(--accent-color);
-  padding: 30px;
-  display: flex;
-  justify-content: center; /* Centers content horizontally */
-  align-items: center; /* Centers content vertically */
-  /* flex-direction: column; /* Ensures content is stacked vertically */ 
-  max-width: 600px;
-  margin-left: 200px; /* Aligns the wrap to the right */
-  margin-right: 0; /* Ensures it stays on the right */
+.contact .container {
+
+  justify-content: center; /* Center the container horizontally */
+  align-items: center; /* Center the container vertically */
+  padding-top: 50px; /* Add some space from the top */
 }
 
-.container {
+.contact .row {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end; /* Ensures content is at the bottom */
-}
-
-@media (max-width: 768px) {
-  .info-wrap {
-    text-align: center; /* Ensures the content inside is centered */
-  }
+  justify-content: center; /* Center the items horizontally within the row */
+  align-items: center; /* Center the items vertically within the row */
+  text-align: center; /* Ensure text is centered */
 }
 
 .contact .info-item {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact .info-item i {
@@ -1898,16 +1888,14 @@ section,
 }
 
 .contact .info-item h3 {
-  padding: 0;
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 5px;
 }
 
 .contact .info-item p {
-  padding: 0;
-  margin-bottom: 0;
   font-size: 14px;
+  margin-bottom: 0;
 }
 
 .contact .info-item:hover i {
@@ -1915,60 +1903,11 @@ section,
   color: var(--contrast-color);
 }
 
-
-
-.contact .php-email-form {
-  background-color: var(--surface-color);
-  height: 100%;
-  padding: 30px;
-  border-top: 3px solid var(--accent-color);
-  border-bottom: 3px solid var(--accent-color);
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-}
-
 @media (max-width: 575px) {
-  .contact .php-email-form {
-    padding: 20px;
+  .contact .info-item {
+    margin-bottom: 15px;
   }
 }
-
-.contact .php-email-form input[type=text],
-.contact .php-email-form input[type=email],
-.contact .php-email-form textarea {
-  font-size: 14px;
-  padding: 10px 15px;
-  box-shadow: none;
-  border-radius: 0;
-  color: var(--default-color);
-  background-color: color-mix(in srgb, var(--background-color), transparent 50%);
-  border-color: color-mix(in srgb, var(--default-color), transparent 80%);
-}
-
-.contact .php-email-form input[type=text]:focus,
-.contact .php-email-form input[type=email]:focus,
-.contact .php-email-form textarea:focus {
-  border-color: var(--accent-color);
-}
-
-.contact .php-email-form input[type=text]::placeholder,
-.contact .php-email-form input[type=email]::placeholder,
-.contact .php-email-form textarea::placeholder {
-  color: color-mix(in srgb, var(--default-color), transparent 70%);
-}
-
-.contact .php-email-form button[type=submit] {
-  color: var(--contrast-color);
-  background: var(--accent-color);
-  border: 0;
-  padding: 10px 30px;
-  transition: 0.4s;
-  border-radius: 50px;
-}
-
-.contact .php-email-form button[type=submit]:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 25%);
-}
-
 
 /*--------------------------------------------------------------
 # Portfolio Details Section
